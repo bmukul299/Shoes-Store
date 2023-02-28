@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoes Store</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="navbar">
+        <div class="logo">
+          <img src="./img/sneakers.png" alt="Logo" />
+        </div>
+        <div class="search_bar">
+          <input
+            type="search"
+            placeholder="Search here..."
+            class="search_input"
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="limited_offer">
+          <span>Limited offer!</span>
+        </div>
+      </div>
+      <div class="header">
+        <h2 class="menu_item">Adidas</h2>
+        <h2 class="menu_item">Puma</h2>
+        <h2 class="menu_item">Nike</h2>
+        <h2 class="menu_item">Jordan</h2>
+        <h2 class="menu_item">Air</h2>
+      </div>
+    </nav>
+
+    <div class="slider">
+      <div class="slider_wrapper">
+        <div class="slider_item">
+          <img src="./img/air.png" class="slider_shoes-image" />
+          <div class="slider_color"></div>
+          <h1 class="slider_shoes-title">
+            Adidas New <br />
+            Sale<br />
+            is Here
+          </h1>
+          <h2 class="slider_shoes-price">1000 Rs</h2>
+          <a href="#products">
+            <button class="slider_buy-button">Buy Now</button>
+          </a>
+        </div>
+        <div class="slider_item">
+          <img src="./img/blazer.png" class="slider_shoes-image" />
+          <div class="slider_color"></div>
+          <h1 class="slider_shoes-title">
+            Puma New<br />
+            Sale<br />
+            is Here
+          </h1>
+          <h2 class="slider_shoes-price">1300 Rs</h2>
+          <a href="#products">
+            <button class="slider_buy-button">Buy Now</button>
+          </a>
+        </div>
+        <div class="slider_item">
+          <img src="./img/crater.png" class="slider_shoes-image" />
+          <div class="slider_color"></div>
+          <h1 class="slider_shoes-title">
+            Nick New <br />Sale<br />
+            is Here
+          </h1>
+          <h2 class="slider_shoes-price">2500 Rs</h2>
+          <a href="#products">
+            <button class="slider_buy-button">Buy Now</button>
+          </a>
+        </div>
+        <div class="slider_item">
+          <img src="./img/jordan.png" class="slider_shoes-image" />
+          <div class="slider_color"></div>
+          <h1 class="slider_shoes-title">
+            Jordan New<br />
+            Sale<br />
+            is Here
+          </h1>
+          <h2 class="slider_shoes-price">5000 Rs</h2>
+          <a href="#products">
+            <button class="slider_buy-button">Buy Now</button>
+          </a>
+        </div>
+        <div class="slider_item">
+          <img src="./img/hippie.png" class="slider_shoes-image" />
+          <div class="slider_color"></div>
+          <h1 class="slider_shoes-title">
+            Air New<br />
+            Sale<br />
+            is Here
+          </h1>
+          <h2 class="slider_shoes-price">3000 Rs</h2>
+          <a href="#products">
+            <button class="slider_buy-button">Buy Now</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature Section -->
+    <section id="feature_section">
+      <div class="feature">
+        <img src="./img/shipping.png" class="feature_image" />
+        <span class="feature_title">Free shipping</span>
+        <span class="feature_description"
+          >Free worldwide shipping on all orders</span
+        >
+      </div>
+      <div class="feature">
+        <img src="./img/return.png" class="feature_image" />
+        <span class="feature_title">30 days return policy</span>
+        <span class="feature_description"
+          >Easy 30 days return and refund without questioning</span
+        >
+      </div>
+      <div class="feature">
+        <img src="./img/gift.png" class="feature_image" />
+        <span class="feature_title">Gift Cards</span>
+        <span class="feature_description"
+          >Get gift cards and discount coupon and use it to get extra
+          discount</span
+        >
+      </div>
+      <div class="feature">
+        <img src="./img/contact.png" class="feature_image" />
+        <span class="feature_title">Contact us</span>
+        <span class="feature_description"
+          >24/7 support system by our team via email
+        </span>
+      </div>
+    </section>
+
+    <!-- Product Section -->
+
+    <section class="products" id="products">
+      <img src="./img/air.png" class="product_image" />
+      <div class="product_details">
+        <h1 class="product_name">Adidas</h1>
+        <h2 class="product_price">Rs 1000</h2>
+        <p class="product_description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          aliquid sapiente velit quod officia fuga pariatur, in omnis officiis?
+          Ut minima quo earum amet laborum molestiae ipsa sequi magnam eos.
+        </p>
+        <div class="product_color-changer">
+          <div class="color"></div>
+          <div class="color"></div>
+        </div>
+        <div class="product_sizes">
+          <div class="size">7</div>
+          <div class="size">8</div>
+          <div class="size">9</div>
+        </div>
+        <button class="product_buy-button">Buy Now</button>
+      </div>
+
+      <div class="payment">
+        <h1 class="payment_title">Personal Information</h1>
+        <label for="">Username</label>
+        <input
+          type="text"
+          placeholder="Enter your name..."
+          class="payment_input"
+        />
+        <label for="">Phone no.</label>
+        <input
+          type="text"
+          placeholder="Enter your number..."
+          class="payment_input"
+        />
+        <label for="">Address</label>
+        <input
+          type="text"
+          placeholder="Enter your address..."
+          class="payment_input"
+        />
+        <h1 class="payment_title">Card Information</h1>
+        <div class="payment_images">
+          <img src="./img/visa.png" width="40" class="card_icon" />
+          <img src="./img/master.png" width="40" class="card_icon" />
+        </div>
+        <input
+          type="text"
+          placeholder="Card number...."
+          class="payment_input"
+        />
+        <div class="card_info">
+          <input type="text" placeholder="MM" class="month payment_input" />
+          <input type="text" placeholder="YY" class="year payment_input" />
+          <input
+            type="password"
+            placeholder="CVV"
+            max="3"
+            class="CVV payment_input"
+          />
+        </div>
+        <button class="payment_button">Checkout</button>
+        <button class="payment_close-button">X</button>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+      <div class="gallery_item">
+        <h1>Be Yourself!</h1>
+        <img src="./img/galleryimage1.jpg" class="gallery_image" />
+      </div>
+      <div class="gallery_item">
+        <img src="./img/galleryimage2.jpg" class="gallery_image" />
+        <h1>Start your day with our shoes</h1>
+      </div>
+      <div class="gallery_item">
+        <h1>Just Do it!</h1>
+        <img src="./img/galleryimage3.jpg" class="gallery_image" />
+      </div>
+    </section>
+
+    <!-- Footer Starts -->
+    <footer>
+      <div class="footer_left-section">
+        <div class="footer_menu">
+          <h1 class="footer_menu-title">About Us</h1>
+          <ul class="footer_menu-list">
+            <li class="footer_menu-list_item">Company</li>
+            <li class="footer_menu-list_item">Contact</li>
+            <li class="footer_menu-list_item">Careers</li>
+            <li class="footer_menu-list_item">Affiliate</li>
+            <li class="footer_menu-list_item">Stores</li>
+          </ul>
+        </div>
+        <div class="footer_menu">
+          <h1 class="footer_menu-title">Useful Links</h1>
+          <ul class="footer_menu-list">
+            <li class="footer_menu-list_item">Support</li>
+            <li class="footer_menu-list_item">Refund</li>
+            <li class="footer_menu-list_item">FAQ</li>
+            <li class="footer_menu-list_item">Feedback</li>
+            <li class="footer_menu-list_item">Stories</li>
+          </ul>
+        </div>
+        <div class="footer_menu">
+          <h1 class="footer_menu-title">Products</h1>
+          <ul class="footer_menu-list">
+            <li class="footer_menu-list_item">Adidas</li>
+            <li class="footer_menu-list_item">Puma</li>
+            <li class="footer_menu-list_item">Nike</li>
+            <li class="footer_menu-list_item">Jordan</li>
+            <li class="footer_menu-list_item">Air</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer_right-section">
+        <div class="footer_right-menu">
+          <h2 class="footer_right-menu_title">Subscribe to our newsletter</h3>
+          <input
+            type="email"
+            placeholder="your email..."
+            class="footer_input"
+          />
+          <button class="footer_button">Join</button>
+        </div>
+        <div class="footer_right-menu">
+          <h2 class="footer_right-menu_title">Follow Us</h2>
+          <div class="footer_social-links">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-whatsapp fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+            <i class="fa-brands fa-facebook fa-2x"></i>
+          </div>
+        </div>
+        <div class="footer_right-menu">
+          <h4 class="copyright"
+            >@Mukul Bansal. All copyright reserved
+            <span id="copyright_year"></span>
+          </h4>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
